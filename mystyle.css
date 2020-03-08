@@ -11,26 +11,30 @@ body {
     padding: 0;
     height: 100%;
     display: block;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     width: 100%;
     color: white;
     overflow-x: hidden;
 }
 
+section {
+    padding: 30px;
+}
+
 /* Navbar */
 
 .text-primary {
-    color: rgb(24, 155, 179);
+    color: white;
 }
 
 nav {
     display: flex;
-    background: #333;
+    background: black;
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 3px solid rgb(24, 155, 179);
+    border-bottom: 1px solid white;
   
 }
 
@@ -61,8 +65,21 @@ nav li a:hover {
     background-color: rgb(24, 155, 179);
 }
 
-section {
-    padding: 30px;
+/* main */
+
+.main {
+    max-width: 100%;
+    margin: auto;
+    background: url(assets/keyboard.jpg) no-repeat center center/cover;
+    border-bottom: 1px solid white;
+    text-align: center;
+    align-items: center;
+}
+
+.main p {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background-color: black;
 }
 
 img {
