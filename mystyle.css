@@ -1,0 +1,70 @@
+
+html {
+    font-size: 62.5%; /* Now 10px = 1rem! */
+    font-size: .9765625vw;
+}
+
+body {
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.text-primary {
+    color: rgb(24, 155, 179);
+}
+
+nav {
+    display: flex;
+    background: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid rgb(24, 155, 179);
+  
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+nav h1 a {
+    color: white;
+    text-decoration: none;   
+}
+
+nav li a {
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: rgb(24, 155, 179);
+}
+
+section {
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+}
