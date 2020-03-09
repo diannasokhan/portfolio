@@ -24,6 +24,10 @@ section {
 
 /* Navbar */
 
+h1 {
+    padding-left: 20px;
+}
+
 .text-primary {
     color: white;
 }
@@ -32,17 +36,20 @@ nav {
     display: flex;
     background: black;
     position: sticky;
+    justify-content: space-between;
     top: 0;
     z-index: 1;
-    border-bottom: 1px solid white;
-  
+    border-bottom: 1px solid white; 
 }
 
-li {
+.nav-links {
+    display: flex;
+}
+
+nav li {
     display: flex;
     align-items: center;
     list-style-type: none;
-    color: white;
 }
 
 nav h1 a {
@@ -52,7 +59,6 @@ nav h1 a {
 
 nav li a {
     text-decoration: none;
-    text-align: right;
     color: white;
     padding: 1rem;
     font-size: 1.3rem;
@@ -61,7 +67,11 @@ nav li a {
     transition: background-color 0.3s;
 }
 
-nav li a:hover {
+nav li {
+    text-align: right;
+}
+
+nav li:hover {
     background-color: rgb(24, 155, 179);
 }
 
@@ -69,6 +79,7 @@ nav li a:hover {
 
 .main {
     max-width: 100%;
+    height: 200px;
     margin: auto;
     background: url(assets/keyboard.jpg) no-repeat center center/cover;
     border-bottom: 1px solid white;
@@ -82,6 +93,90 @@ nav li a:hover {
     background-color: black;
 }
 
-img {
-    width: 100%;
+/*works */
+
+.works {
+    background-color: black;
+    border-bottom: 1px solid white;
 }
+.work img {
+    width: 100%;
+} 
+
+.work li {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.work li h3 {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+li a {
+    display: block;
+    width: 30%;
+}
+
+.info p {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* about */
+
+.about {
+    background-color: black;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background: black;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+footer li:hover {
+    background-color: rgb(24, 155, 179);
+}
+
+
+
+
+
+
+
+

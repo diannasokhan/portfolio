@@ -11,9 +11,11 @@
 <body>
     <nav>
         <h1><a href="#home"><span class="text-primary">Dianna</span> Sokhan</a></h1>
-        <li><a href="#works">Works</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <div class="nav-links">
+            <li><a href=".works">Works</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
     </nav>
     <section class="main">
         <p>
@@ -21,13 +23,37 @@
         </p>
     </section>
     <section class="works">
-        <img src="assets/grocery-list.png">
+        <ul class="work">
+            <li>
+                <a href="https://secondhand-treasure.herokuapp.com/"><img id="grocery-list" src="assets/secondhand-1.png"></a>
+                <div class="info">
+                    <h3>SecondHand Treasure</h3>
+                    <p>An application that allows users to buy and sell their used clothing.</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://diannasokhan-bloccit.herokuapp.com/"><img id="bloccit" src="assets/bloccit-1.png"></a>
+                <div class="info">
+                    <h3>Bloccit</h3>
+                    <p>A Reddit-like web application that allows users to create, comment and favorite posts.</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://diannasokhan-grocery-list.herokuapp.com/"><img id="grocery-list" src="assets/grocery-list-1.png"></a>
+                <div class="info">
+                    <h3>Grocery List</h3>
+                    <p>A grocery list web-application that can be shared in real time.</p>
+                </div>
+            </li>
+        <ul>
+        
+        
     </section>
     <section class="about">
         <h2>About Me</h2>
         <p>
             I am a full-stack web developer. Interpersonal communication, the ability to multitask and 
-            an attention to detail are my strong points. Below  are some projects I've worked on.
+            an attention to detail are my strong points.
         </p>
     </section>
     <footer>
